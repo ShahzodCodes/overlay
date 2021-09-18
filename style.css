@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.all-box{
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 5px auto;
+    background-color: yellow;
+}
+
+
+
+.box1{
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.box1-1{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box1-1:hover .overlay{
+    top: 0;
+}
+.box1-2{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box1-2:hover .overlay{
+    top: 0;
+}
+.box1-3{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box1-3:hover .overlay{
+    top: 0;
+}
+.box1-4{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box1-4:hover .overlay{
+    top: 0;
+}
+
+.box2{
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.box2-1{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box2-1:hover .overlay{
+    top: 0;
+}
+.box2-2{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box2-2:hover .overlay{
+    top: 0;
+}
+.box2-3{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box2-3:hover .overlay{
+    top: 0;
+}
+.box2-4{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box2-4:hover .overlay{
+    top: 0;
+}
+
+
+
+.box3{
+    width: 800px;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.box3-1{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box3-1:hover .overlay{
+    top: 0;
+}
+.box3-2{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box3-2:hover .overlay{
+    top: 0;
+}
+.box3-3{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box3-3:hover .overlay{
+    top: 0;
+}
+.box3-4{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+.box3-4:hover .overlay{
+    top: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: .7s linear;
+    border-radius: 10px;
+    top: -180px;
+    text-align: center;
+}
+p{
+    margin-top: 70px;
+    color: white;
+}
+button{
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    height: 25px;
+    color: black;
+}
+button:hover{
+    background-color: #32d910;
+    color: white;
+}
